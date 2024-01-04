@@ -1,10 +1,11 @@
+import './App.css'
 const TimeLine = (props) =>{
-    console.log(props);
+    // console.log(props);
     let {year,event} = props
     return(
       <div>
-        <h2>year {year}:</h2>
-        <p>{event}</p>
+        <h2 className='year'>year {year}:---</h2>
+        <p className='event'>{event}</p>
       </div>
     )
     }
